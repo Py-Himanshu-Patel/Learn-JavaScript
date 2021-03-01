@@ -37,14 +37,23 @@ header {
 	border-radius: 30px;
 }
 
-ul {
+.items {
+	padding: 0%;
+	width: 70%;
 	margin: auto;
-	border: 2px white solid;
+	/* border: 2px white solid; */
 }
 
-ul li {
-	/* text-align: left; */
-	list-style: none;
-	border: 2px white solid;
+.item {
+	padding: 0px;
+	list-style-type: none;
+	margin: 0 auto;
+	/* border: 2px white solid; */
+}
+
+.error {
+	background-color: coral;
 	width: 70%;
+	margin: auto;
+	border-radius: 30px;
 }
